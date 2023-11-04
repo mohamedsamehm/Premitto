@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: var(--main-color) !important;
+  border: 1px solid var(--main-color) !important;
+  color: white !important;
+  @include prefix(transition, all 0.2s);
+  padding: 9px 15px !important;
+  &:hover {
+    border-color: var(--main-color-hover) !important;
+    background-color: var(--main-color-hover) !important;
+  }
+}

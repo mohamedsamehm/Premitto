@@ -1,0 +1,59 @@
+footer {
+  padding: 60px 0 0 0;
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: fit-content;
+    img {
+      height: 45px;
+    }
+  }
+  .footer-info {
+    p {
+      color: #9e9e9e;
+      line-height: 1.4;
+      max-width: 600px;
+      font-size: 1rem;
+    }
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 18px;
+    @media (max-width: 992px) {
+      gap: 18px;
+      .nav-link {
+        font-size: smaller;
+      }
+    }
+    .nav-link {
+      color: #5a5a5a;
+      padding: 0;
+      &:hover {
+        color: var(--main-color) !important;
+      }
+    }
+  }
+  .copyright {
+    padding: 26px 0;
+    p {
+      color: #7f7f7f;
+      margin: 0;
+      font-size: smaller;
+    }
+    .social-icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      width: fit-content;
+      margin-left: auto;
+      .icon {
+        font-size: 1rem;
+        color: #555;
+      }
+    }
+  }
+}
